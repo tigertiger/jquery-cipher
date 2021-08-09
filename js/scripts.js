@@ -25,5 +25,10 @@ function countLetters() {
   return sentence.charAt(roundy);
 }
 
+function reverseString() {
+  return sentence.split("").reverse().join("");
+}
+
+console.log(reverseString());
 console.log(printLetters());
 console.log(countLetters());
